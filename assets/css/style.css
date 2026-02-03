@@ -1,22 +1,106 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
-    padding: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
 }
 
-header {
-    background: #333;
-    color: white;
-    padding: 10px;
+body {
+    background: #0e0e0e;
+    color: #fff;
 }
 
-nav a {
-    color: white;
-    margin-right: 10px;
+/* HEADER */
+.main-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav a {
+    margin-left: 25px;
     text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 }
 
-footer {
-    text-align: center;
-    margin-top: 20px;
+.btn-outline {
+    border: 1px solid #fff;
+    padding: 8px 16px;
 }
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ),
+    url("/assets/images/https://similarpng.com/design-of-click-icon-with-hand-cursor-hand-is-pushing-the-button-pointer-symbol-on-transparent-background-png/") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-subtitle {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin: 20px 0 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TAGS */
+.hero-tags {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-tags span {
+    background: rgba(255,255,255,.1);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* SECTION */
+.section {
+    padding: 100px 60px;
+    background: #fff;
+    color: #000;
+}
+
+/* FOOTER */
+.footer {
+    padding: 30px;
+    text-align: center;
+    background: #000;
+}
+s

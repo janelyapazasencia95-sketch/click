@@ -1,6 +1,7 @@
-<hr>
-<footer>
-    <p>© 2026 - Mi sitio web en PHP</p>
+<footer class="footer">
+    <p>© <?php echo date('Y'); ?> Mi Marca</p>
 </footer>
+
+<script src="/assets/js/script.js"></script>
 </body>
 </html>
