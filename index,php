@@ -1,19 +1,17 @@
-<?php
-    $saludo = "¡Hola! Mi servidor XAMPP está funcionando.";
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Proyecto</title>
-    <style>
-        body { font-family: sans-serif; background: #222; color: #fff; text-align: center; padding-top: 50px; }
-        h1 { color: #4CAF50; }
-    </style>
+    <title>Mi primera página PHP</title>
 </head>
 <body>
-    <h1>Exito</h1>
-    <p><?php echo $saludo; ?></p>
+
+<h1>Hola, esta es mi página en PHP</h1>
+<p>Mi proyecto ya está en GitHub 🎉</p>
+
+<?php
+echo "<p>PHP está funcionando correctamente</p>";
+?>
+
 </body>
 </html>
