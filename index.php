@@ -111,3 +111,50 @@
     </div>
 </section>
 
+
+  <!-- TERCERA VISTA CARRUSEL-->
+<section class="software-carousel">
+    <h2 class="carousel-title">Software Carrusel</h2>
+
+    <div class="carousel-wrapper">
+
+        <button class="carousel-btn prev">‹</button>
+
+        <div class="carousel-track">
+
+            <div class="carousel-card active">
+                <div class="card-icon">🔒</div>
+                <h3>Desarrollo a Medida</h3>
+                <p>Soluciones personalizadas adaptadas a tus necesidades.</p>
+            </div>
+
+            <div class="carousel-card">
+                <div class="card-icon">🛡️</div>
+                <h3>Ciberseguridad Total</h3>
+                <p>Protección integral de tus sistemas y datos.</p>
+            </div>
+
+            <div class="carousel-card">
+                <div class="card-icon">☁️</div>
+                <h3>Plataformas Digitales</h3>
+                <p>Escalabilidad y rendimiento en la nube.</p>
+            </div>
+
+            <div class="carousel-card">
+                <div class="card-icon">⚙️</div>
+                <h3>Soporte Inteligente</h3>
+                <p>Automatización y soporte continuo.</p>
+            </div>
+
+        </div>
+
+        <button class="carousel-btn next">›</button>
+    </div>
+
+    <div class="carousel-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>

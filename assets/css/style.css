@@ -282,3 +282,126 @@ body {
 
 /* RESPONSIVE */
 
+
+/* TERCERA VISTA,CARRUSELL */
+.software-carousel {
+    min-height: 55vh;                 /* media portada */
+    padding: 80px 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+.carousel-title {
+    font-size: 42px;
+    margin-bottom: 60px;
+    color: #1b3fae;
+}
+
+/* WRAPPER */
+.carousel-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* TRACK */
+.carousel-track {
+    display: flex;
+    gap: 40px;
+    transition: transform 0.6s ease;
+}
+
+/* CARD */
+.carousel-card {
+    min-width: 260px;
+    height: 360px;
+    background: linear-gradient(145deg, #2b004f, #0d0221);
+    border-radius: 26px;
+    padding: 40px 25px;
+    color: #fff;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+    opacity: 0.4;
+    transform: scale(0.9);
+    transition: all 0.4s ease;
+}
+
+/* CARD ACTIVA */
+.carousel-card.active {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 30px 60px rgba(98,0,255,0.45);
+}
+
+/* ICON */
+.card-icon {
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+/* TEXT */
+.carousel-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.carousel-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.85;
+}
+
+/* BUTTONS */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #1b3fae;
+    color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.carousel-btn.prev { left: -25px; }
+.carousel-btn.next { right: -25px; }
+
+.carousel-btn:hover {
+    background: #5d7bff;
+}
+
+/* DOTS */
+.carousel-dots {
+    margin-top: 35px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #bbb;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.dot.active {
+    background: #1b3fae;
+}
+@media (max-width: 900px) {
+    .carousel-track {
+        gap: 20px;
+    }
+
+    .carousel-card {
+        min-width: 220px;
+        height: 320px;
+    }
+
+    .carousel-title {
+        font-size: 32px;
+    }
+}
