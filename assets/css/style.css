@@ -44,9 +44,9 @@ body {
     height: 100vh;
     background: linear-gradient(
         rgba(0,0,0,.6),
-        rgba(0,0,0,.6)
+        rgba(0,0,0,.6) 
     ),
-    url("/assets/images/https://similarpng.com/design-of-click-icon-with-hand-cursor-hand-is-pushing-the-button-pointer-symbol-on-transparent-background-png/") center/cover no-repeat;
+    url("/click/assets/images/portada.png") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +84,7 @@ body {
 }
 
 .hero-tags span {
-    background: rgba(255,255,255,.1);
+    background: rgba(21, 4, 4, 0.1);
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 13px;
@@ -101,6 +101,94 @@ body {
 .footer {
     padding: 30px;
     text-align: center;
-    background: #000;
+    background: #ca8cfd;
 }
-s
+
+
+/* FILOSOFÍA Y TECNOLOGÍA */
+.philosophy-section {
+    min-height: 100vh;          /* altura de la pantalla */
+    padding: 140px 60px;        /* espacio arriba y abajo */
+    display: flex;              /* activa centrado real */
+    align-items: center;        /* centra vertical */
+    background: linear-gradient(135deg, #e9e6f7, #f5f3ff);
+}
+
+.philosophy-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+/* IZQUIERDA */
+.philosophy-left h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #8c2b7d;
+}
+
+.philosophy-card {
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(14px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.philosophy-card h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.philosophy-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #8f3cff, #ff4fd8);
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* DERECHA */
+.philosophy-right h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.tech-card {
+    background: rgba(255,255,255,0.75);
+    border-radius: 18px;
+    padding: 30px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.tech-card img {
+    width: 48px;
+    margin-bottom: 10px;
+}
+
+.tech-card span {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Mi Sitio Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/click/assets/css/style.css">
+
 </head>
 <body>
 
