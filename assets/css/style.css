@@ -104,7 +104,7 @@ body {
     background: #ca8cfd;
 }
 
-
+   /* 2DA VISTA*/
 /* FILOSOFÍA Y TECNOLOGÍA */
 .philosophy-section {
     min-height: 100vh;          /* altura de la pantalla */
@@ -192,3 +192,93 @@ body {
     font-size: 14px;
     color: #333;
 }
+
+   /* 3ra VISTA*/
+/* CTA HERO */
+.cta-hero {
+    min-height: 110vh;               
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #e9e6f7, #f6eaff);
+    overflow: hidden;
+}
+
+.cta-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 60px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 60px;
+}
+
+/* TEXTO */
+.cta-left h2 {
+    font-size: 54px;
+    color: #1d1d1d;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 16px 42px;
+    border-radius: 40px;
+    background: linear-gradient(135deg, #ff4fd8, #8f3cff);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+.cta-left h4 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* CLIENTES */
+.cta-clients {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.client-card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.client-card span {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.client-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* IMAGEN */
+.cta-right img {
+    width: 100%;
+    max-width: 420px;
+    animation: float 5s ease-in-out infinite;
+}
+
+/* ANIMACIÓN SUAVE */
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0); }
+}
+
+/* RESPONSIVE */
+

@@ -70,3 +70,44 @@
 
     </div>
 </section>
+
+ <!-- 3ra vista -->
+<section class="cta-hero">
+    <div class="cta-container">
+
+        <!-- TEXTO -->
+        <div class="cta-left">
+            <h2>Impulsa tu Proyecto al<br>Futuro</h2>
+
+            <a href="/click/contact.php" class="cta-btn">
+                Contactar Ahora
+            </a>
+
+            <h4>Nuestros Clientes Confían</h4>
+
+            <div class="cta-clients">
+                <div class="client-card">
+                    <span>🏛️</span>
+                    <p>Sector Público</p>
+                </div>
+
+                <div class="client-card">
+                    <span>🏢</span>
+                    <p>Grandes Empresas</p>
+                </div>
+
+                <div class="client-card">
+                    <span>🚀</span>
+                    <p>Startups<br>Innovadoras</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGEN / ILUSTRACIÓN -->
+        <div class="cta-right">
+            <img src="assets/images/cohete.png" alt="Impulsa tu proyecto">
+        </div>
+
+    </div>
+</section>
+
